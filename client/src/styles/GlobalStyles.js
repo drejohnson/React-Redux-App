@@ -18,7 +18,7 @@ const GlobalStyles = createGlobalStyle`
   body {
     font-size: 1rem;
     line-height: 1.6;
-    color: #111;
+    color: white;
     margin: 0;
     padding: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -28,8 +28,8 @@ const GlobalStyles = createGlobalStyle`
     -moz-osx-font-smoothing: grayscale;
   }
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Oswald', sans-serif;
-    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
     margin: 0;
   }
   p {
@@ -43,7 +43,7 @@ const GlobalStyles = createGlobalStyle`
   }
   img {
     max-width: 100%;
-    height: 100%;
+    height: auto;
   }
   ul, li {
     margin: 0;
